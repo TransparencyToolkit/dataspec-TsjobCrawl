@@ -1,0 +1,245 @@
+[
+  {
+    "Field Name": "job_title",
+    "Human Readable Name": "Job Title",
+    "Type": "String",
+    "Form Params": "job_title",
+    "Location": "0",
+    "Display Type": "Title",
+    "Icon": ""
+  },
+    {
+	"Field Name": "search_terms",
+	"Human Readable Name": "Selectors",
+	"Type": "String",
+	"Display Type": "Category",
+	"Mapping": "not_analyzed",
+	"Form Params": "search_terms",
+	"Location": "28",
+	"Icon": "document-topic"
+    },
+    {
+	"Field Name": "overall_tag",
+	"Human Readable Name": "Tag",
+	"Type": "String",
+	"Display Type": "Category",
+	"Mapping": "not_analyzed",
+	"Form Params": "overall_tag",
+	"Location": "29",
+	"Icon": "document-topic"
+    },
+    {
+	"Field Name": "data_source",
+	"Human Readable Name": "Data Source",
+	"Type": "String",
+	"Display Type": "Category",
+	"Mapping": "not_analyzed",
+	"Form Params": "data_source",
+	"Location": "30",
+	"Icon": "analysis"
+    },{
+    "Field Name": "posting_date",
+    "Human Readable Name": "Listing Date",
+    "Type": "Date",
+    "Display Type": "Date",
+    "Mapping": "not_analyzed",
+    "Form Params": [
+      "posting_date",
+      "end_posting_date"
+    ],
+    "Location": "3",
+    "Icon": ""
+    },
+    {
+	"Field Name": "closing_date",
+	"Human Readable Name": "Closing Date",
+	"Type": "Date",
+	"Display Type": "Date",
+	"Mapping": "not_analyzed",
+	"Form Params": [
+	    "closing_date",
+	    "end_closing_date"
+	],
+	"Location": "3",
+	"Icon": ""
+    },
+    {
+    "Field Name": "job_description_plaintext",
+    "Human Readable Name": "Job Description",
+    "Type": "String",
+    "Display Type": "Description",
+    "Mapping": "english",
+    "Form Params": "job_description_plaintext",
+    "Location": "8",
+    "Truncate": "200",
+    "Icon": ""
+  },{
+    "Field Name": "url",
+    "Human Readable Name": "URL",
+    "Type": "String",
+    "Display Type": "Link",
+    "Mapping": "not_analyzed",
+    "Form Params": "url",
+    "Location": "17",
+    "Icon": ""
+  },{
+      "Field Name": "dataset_name",
+      "Human Readable Name": "Collection",
+      "Type": "String",
+      "Display Type": "Category",
+      "Mapping": "not_analyzed",
+      "Form Params": "dataset_name",
+      "Location": "27",
+      "Icon": "document-topic"
+  },
+    {
+	"Field Name": "company_name",
+	"Human Readable Name": "Company",
+	"Type": "String",
+	"Display Type": "Category",
+	"Mapping": "not_analyzed",
+	"Form Params": "company_name",
+	"Location": "27",
+	"Icon": "document-topic"
+    },
+    {
+	"Field Name": "location",
+	"Human Readable Name": "Location",
+	"Type": "String",
+	"Display Type": "Category",
+	"Mapping": "not_analyzed",
+	"Form Params": "location",
+	"Location": "27",
+	"Icon": "document-topic"
+    },
+    {
+	"Field Name": "country",
+	"Human Readable Name": "Country",
+	"Type": "String",
+	"Display Type": "Category",
+	"Mapping": "not_analyzed",
+	"Form Params": "country",
+	"Location": "27",
+	"Icon": "document-topic"
+    },
+    {
+	"Field Name": "company_listing_link",
+	"Human Readable Name": "Company Link",
+	"Type": "String",
+	"Display Type": "Link",
+	"Mapping": "not_analyzed",
+	"Form Params": "company_listing_link",
+	"Location": "17",
+	"Icon": ""
+    },
+    {
+	"Field Name": "required_travel",
+	"Human Readable Name": "Required Travel",
+	"Type": "String",
+	"Display Type": "Category",
+	"Mapping": "not_analyzed",
+	"Form Params": "required_travel",
+	"Location": "27",
+	"Icon": "document-topic"
+    },
+    {
+	"Field Name": "job_category",
+	"Human Readable Name": "Job Category",
+	"Type": "String",
+	"Display Type": "Category",
+	"Mapping": "not_analyzed",
+	"Form Params": "job_category",
+	"Location": "27",
+	"Icon": "document-topic"
+    },
+    {
+	"Field Name": "salary",
+	"Human Readable Name": "Salary",
+	"Type": "String",
+	"Display Type": "Short Text",
+	"Mapping": "not_analyzed",
+	"Form Params": "salary",
+	"Location": "27",
+	"Icon": "document-topic"
+    },
+    {
+	"Field Name": "salary_notes",
+	"Human Readable Name": "Salary Notes",
+	"Type": "String",
+	"Display Type": "Short Text",
+	"Mapping": "not_analyzed",
+	"Form Params": "salary_notes",
+	"Location": "27",
+	"Icon": "document-topic"
+    },
+    {
+	"Field Name": "group_id",
+	"Human Readable Name": "Group ID",
+	"Type": "String",
+	"Display Type": "Short Text",
+	"Mapping": "not_analyzed",
+	"Form Params": "group_id",
+	"Location": "27",
+	"Icon": "document-topic"
+    },
+    {
+	"Field Name": "job_number",
+	"Human Readable Name": "Job Number",
+	"Type": "String",
+	"Display Type": "Short Text",
+	"Mapping": "not_analyzed",
+	"Form Params": "job_number",
+	"Location": "27",
+	"Icon": "document-topic"
+    },
+    {
+	"Field Name": "required_experience",
+	"Human Readable Name": "Experience",
+	"Type": "String",
+	"Display Type": "Category",
+	"Mapping": "not_analyzed",
+	"Form Params": "required_experience",
+	"Location": "27",
+	"Icon": "document-topic"
+    },
+    {
+	"Field Name": "employment_status",
+	"Human Readable Name": "Status",
+	"Type": "String",
+	"Display Type": "Category",
+	"Mapping": "not_analyzed",
+	"Form Params": "employment_status",
+	"Location": "27",
+	"Icon": "document-topic"
+    },
+    {
+	"Field Name": "required_clearance",
+	"Human Readable Name": "Clearance",
+	"Type": "String",
+	"Display Type": "Category",
+	"Mapping": "not_analyzed",
+	"Form Params": "required_clearance",
+	"Location": "27",
+	"Icon": "document-topic"
+    },
+    {
+	"Field Name": "work_environment",
+	"Human Readable Name": "Work Environment",
+	"Type": "String",
+	"Display Type": "Category",
+	"Mapping": "not_analyzed",
+	"Form Params": "work_environment",
+	"Location": "27",
+	"Icon": "document-topic"
+    },
+    {
+	"Field Name": "contact_person",
+	"Human Readable Name": "Contact Person",
+	"Type": "String",
+	"Display Type": "Short Text",
+	"Mapping": "not_analyzed",
+	"Form Params": "contact_person",
+	"Location": "27",
+	"Icon": "document-topic"
+    }
+]

@@ -1,0 +1,9 @@
+{
+  "Path Type": "Directory",
+  "Path": "/path/to/data",
+  "Index Name": "tsjob_harvester",
+  "Dataset Name": "Cleared Job Listing",
+  "Ignore Dir Import Ext": "_terms.json",
+  "Sort Field": "posting_date",
+  "Show Sort Field": "posting_date"
+}

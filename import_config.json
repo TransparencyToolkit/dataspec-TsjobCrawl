@@ -1,0 +1,9 @@
+{
+  "Synonym List": "app/synonyms/ic_synonyms",
+  "Ignore List": "",
+  "ID Field": "url",
+  "Secondary ID": [],
+    "Deduplicate Ignore": ["date_retrieved", "categories", "search_terms", "search_terms_facet", "doc_modified", "doc_modified_facet", "data_source", "data_source_facet", "updated_at", "dataset_name", "dataset_name_facet", "overall_tag", "overall_tag_facet"],
+  "Deduplicate Prioritize": "posting_date",
+  "Get ID After": ""
+}
